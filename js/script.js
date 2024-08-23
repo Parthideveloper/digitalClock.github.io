@@ -38,7 +38,7 @@ var min = time.getMinutes();
 var sec = time.getSeconds();
 
 if(hrs>12){
-         // hrs = hrs-12;         
+          hrs = hrs-12;      // Its 12 hours     
           span[1].classList.add("active")
 }
 else{
